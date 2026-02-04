@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shree Samarath - Electronic and Mobile</title>
+    
+    <!-- External CSS Libraries -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Our Custom CSS File -->
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- Header & Navigation -->
+    <!-- HEADER & NAVIGATION SECTION -->
+    <!-- This section contains the logo and navigation menu -->
     <header>
         <div class="container">
             <nav class="navbar">
+                <!-- LOGO SECTION -->
+                <!-- Updated: Now using an image logo instead of text -->
                 <div class="logo">
-                    <h1>SHREE SAMARATH</h1>
+                    <img src="IMAGE/logo.png" alt="Shree Samarath Logo">
                 </div>
+                
+                <!-- MOBILE MENU BUTTON -->
+                <!-- Only visible on mobile devices to toggle navigation -->
                 <button class="mobile-menu-btn" id="mobileMenuBtn">
                     <i class="fas fa-bars"></i>
                 </button>
+                
+                <!-- NAVIGATION LINKS -->
+                <!-- Main navigation menu with smooth scroll links -->
                 <ul class="nav-links" id="navLinks">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#brands">Top Brands</a></li>
@@ -34,12 +43,13 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
+    <!-- HERO SECTION -->
+    <!-- Main banner with call-to-action buttons -->
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
                 <h1>Shree Samarath Electronic & Mobile</h1>
-                <p>Affordable prices • Top brands • No-Cost EMI • Fast Home Delivery</p>
+                <p>Your one-stop destination for all electronic gadgets, home appliances, mobile phones and accessories. We offer the latest products with 0% financing options available.</p>
                 <div class="hero-btns">
                     <a href="#categories" class="btn">Explore Products</a>
                     <a href="#contact" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Contact on WhatsApp</a>
@@ -48,7 +58,8 @@
         </div>
     </section>
 
-    <!-- Top Brands Section -->
+    <!-- TOP BRANDS SECTION -->
+    <!-- Displays brands with auto-scrolling carousel -->
     <section class="brands-section" id="brands">
         <div class="container">
             <div class="brands-header">
@@ -57,7 +68,7 @@
             </div>
             <div class="brands-carousel">
                 <div class="brands-track">
-                    <!-- First Set -->
+                    <!-- First Set of Brands -->
                     <div class="brand-item">
                         <div class="brand-icon">
                             <i class="fab fa-apple"></i>
@@ -65,15 +76,13 @@
                         <div class="brand-name">Apple</div>
                         <div class="brand-desc">Premium smartphones & accessories</div>
                     </div>
-
                     <div class="brand-item">
                         <div class="brand-icon">
-                            <i class="fab fa-android"></i>
+                            <i class="fas fa-mobile-alt"></i>
                         </div>
                         <div class="brand-name">Samsung</div>
                         <div class="brand-desc">Innovative smartphones & appliances</div>
                     </div>
-
                     <div class="brand-item">
                         <div class="brand-icon">
                             <i class="fas fa-bolt"></i>
@@ -81,40 +90,37 @@
                         <div class="brand-name">OnePlus</div>
                         <div class="brand-desc">Flagship smartphones</div>
                     </div>
-
                     <div class="brand-item">
                         <div class="brand-icon">
-                            <i class="fas fa-camera-retro"></i>
+                            <i class="fas fa-camera"></i>
                         </div>
                         <div class="brand-name">Vivo</div>
                         <div class="brand-desc">Camera-focused smartphones</div>
                     </div>
-
-                    <div class="brand-item">
-                        <div class="brand-icon">
-                            <i class="fas fa-tv"></i>
-                        </div>
-                        <div class="brand-name">LG</div>
-                        <div class="brand-desc">Home appliances & TVs</div>
-                    </div>
-
                     <div class="brand-item">
                         <div class="brand-icon">
                             <i class="fas fa-wind"></i>
                         </div>
+                        <div class="brand-name">LG</div>
+                        <div class="brand-desc">Home appliances & TVs</div>
+                    </div>
+                    <div class="brand-item">
+                        <div class="brand-icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
                         <div class="brand-name">Whirlpool</div>
                         <div class="brand-desc">Refrigerators & ACs</div>
                     </div>
-
                     <div class="brand-item">
                         <div class="brand-icon">
-                            <i class="fas fa-headphones"></i>
+                            <i class="fas fa-tv"></i>
                         </div>
                         <div class="brand-name">Sony</div>
                         <div class="brand-desc">Premium TVs & audio</div>
                     </div>
-
+                    
                     <!-- Duplicate Set for Seamless Loop -->
+                    <!-- Duplicated to create infinite scroll effect -->
                     <div class="brand-item">
                         <div class="brand-icon">
                             <i class="fab fa-apple"></i>
@@ -122,15 +128,13 @@
                         <div class="brand-name">Apple</div>
                         <div class="brand-desc">Premium smartphones & accessories</div>
                     </div>
-
                     <div class="brand-item">
                         <div class="brand-icon">
-                            <i class="fab fa-android"></i>
+                            <i class="fas fa-mobile-alt"></i>
                         </div>
                         <div class="brand-name">Samsung</div>
                         <div class="brand-desc">Innovative smartphones & appliances</div>
                     </div>
-
                     <div class="brand-item">
                         <div class="brand-icon">
                             <i class="fas fa-bolt"></i>
@@ -138,34 +142,30 @@
                         <div class="brand-name">OnePlus</div>
                         <div class="brand-desc">Flagship smartphones</div>
                     </div>
-
                     <div class="brand-item">
                         <div class="brand-icon">
-                            <i class="fas fa-camera-retro"></i>
+                            <i class="fas fa-camera"></i>
                         </div>
                         <div class="brand-name">Vivo</div>
                         <div class="brand-desc">Camera-focused smartphones</div>
                     </div>
-
-                    <div class="brand-item">
-                        <div class="brand-icon">
-                            <i class="fas fa-tv"></i>
-                        </div>
-                        <div class="brand-name">LG</div>
-                        <div class="brand-desc">Home appliances & TVs</div>
-                    </div>
-
                     <div class="brand-item">
                         <div class="brand-icon">
                             <i class="fas fa-wind"></i>
                         </div>
+                        <div class="brand-name">LG</div>
+                        <div class="brand-desc">Home appliances & TVs</div>
+                    </div>
+                    <div class="brand-item">
+                        <div class="brand-icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
                         <div class="brand-name">Whirlpool</div>
                         <div class="brand-desc">Refrigerators & ACs</div>
                     </div>
-
                     <div class="brand-item">
                         <div class="brand-icon">
-                            <i class="fas fa-headphones"></i>
+                            <i class="fas fa-tv"></i>
                         </div>
                         <div class="brand-name">Sony</div>
                         <div class="brand-desc">Premium TVs & audio</div>
@@ -175,7 +175,8 @@
         </div>
     </section>
 
-    <!-- Categories Section -->
+    <!-- PRODUCT CATEGORIES SECTION -->
+    <!-- Grid layout showing different product categories -->
     <section class="categories-section" id="categories">
         <div class="container">
             <div class="section-title">
@@ -183,6 +184,7 @@
                 <p>Explore our wide range of electronic products across different categories</p>
             </div>
             <div class="categories-grid">
+                <!-- Air Conditioners Card -->
                 <div class="category-card">
                     <div class="category-image">
                         <img src="IMAGE/AC.png" alt="Air Conditioners">
@@ -193,6 +195,8 @@
                         <span class="category-count">20+ Models</span>
                     </div>
                 </div>
+                
+                <!-- Washing Machines Card -->
                 <div class="category-card">
                     <div class="category-image">
                         <img src="IMAGE/Washing-machine.png" alt="Washing Machines">
@@ -203,6 +207,8 @@
                         <span class="category-count">15+ Models</span>
                     </div>
                 </div>
+                
+                <!-- Home Appliances Card -->
                 <div class="category-card">
                     <div class="category-image">
                         <img src="IMAGE/Home_appliances.jpg" alt="Home Appliances">
@@ -213,6 +219,8 @@
                         <span class="category-count">50+ Products</span>
                     </div>
                 </div>
+                
+                <!-- Smart Phones Card -->
                 <div class="category-card">
                     <div class="category-image">
                         <img src="IMAGE/Smart_Phone.jpg" alt="Smart Phones">
@@ -223,6 +231,8 @@
                         <span class="category-count">30+ Models</span>
                     </div>
                 </div>
+                
+                <!-- LED & Smart TVs Card -->
                 <div class="category-card">
                     <div class="category-image">
                         <img src="IMAGE/TV.jpg" alt="LED & Smart TVs">
@@ -233,6 +243,8 @@
                         <span class="category-count">25+ Models</span>
                     </div>
                 </div>
+                
+                <!-- Accessories Card -->
                 <div class="category-card">
                     <div class="category-image">
                         <img src="IMAGE/Accessories.jpg" alt="Accessories">
@@ -247,7 +259,8 @@
         </div>
     </section>
 
-    <!-- Why Choose Us Section -->
+    <!-- WHY CHOOSE US SECTION -->
+    <!-- Highlights unique selling points with icons -->
     <section class="why-choose-section" id="why-choose">
         <div class="container">
             <div class="section-title">
@@ -255,24 +268,31 @@
                 <p>Experience the best in electronics shopping with our exclusive benefits</p>
             </div>
             <div class="why-choose-grid">
+                <!-- Best Offers Card -->
                 <div class="why-choose-card">
                     <div class="why-choose-icon">
                         <i class="fas fa-tags"></i>
                     </div>
                     <h3>Best Offers & Prices</h3>
                 </div>
+                
+                <!-- Payment Modes Card -->
                 <div class="why-choose-card">
                     <div class="why-choose-icon">
                         <i class="fas fa-credit-card"></i>
                     </div>
                     <h3>Multiple Payment Modes</h3>
                 </div>
+                
+                <!-- EMI Card -->
                 <div class="why-choose-card">
                     <div class="why-choose-icon">
                         <i class="fas fa-percentage"></i>
                     </div>
                     <h3>No Cost EMI</h3>
                 </div>
+                
+                <!-- Warranty Card -->
                 <div class="why-choose-card">
                     <div class="why-choose-icon">
                         <i class="fas fa-shield-alt"></i>
@@ -283,7 +303,8 @@
         </div>
     </section>
 
-    <!-- Finance Partners Section -->
+    <!-- FINANCE PARTNERS SECTION -->
+    <!-- Shows banking partners with auto-scrolling carousel -->
     <section class="finance-partners-section">
         <div class="container">
             <div class="section-title">
@@ -292,26 +313,33 @@
             </div>
             <div class="finance-partners-carousel">
                 <div class="finance-partners-track">
+                    <!-- Original Set of Bank Logos -->
+                    <div class="finance-partner-logo">HDFC BANK</div>
+                    <div class="finance-partner-logo">BANK OF BARODA</div>
                     <div class="finance-partner-logo">BAJAJ FINSERV</div>
                     <div class="finance-partner-logo">IDFC FIRST BANK</div>
                     <div class="finance-partner-logo">TVS CREDIT</div>
+                    <div class="finance-partner-logo">ICICI BANK</div>
                     <div class="finance-partner-logo">AXIS BANK</div>
                     <div class="finance-partner-logo">KOTAK MAHINDRA</div>
-                    <div class="finance-partner-logo">POONAWALLA FINCORP</div>
-
-                    <!-- Duplicate for seamless loop -->
+                    
+                    <!-- Duplicate Set for Seamless Loop -->
+                    <!-- Duplicated for infinite scroll effect -->
+                    <div class="finance-partner-logo">HDFC BANK</div>
+                    <div class="finance-partner-logo">BANK OF BARODA</div>
                     <div class="finance-partner-logo">BAJAJ FINSERV</div>
                     <div class="finance-partner-logo">IDFC FIRST BANK</div>
                     <div class="finance-partner-logo">TVS CREDIT</div>
+                    <div class="finance-partner-logo">ICICI BANK</div>
                     <div class="finance-partner-logo">AXIS BANK</div>
                     <div class="finance-partner-logo">KOTAK MAHINDRA</div>
-                    <div class="finance-partner-logo">POONAWALLA FINCORP</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Our Services Section -->
+    <!-- OUR SERVICES SECTION -->
+    <!-- Services offered in local area -->
     <section class="services-section" id="services">
         <div class="container">
             <div class="section-title">
@@ -320,7 +348,7 @@
             </div>
             <div class="services-container">
                 <div class="services-grid">
-
+                    <!-- Home Delivery Service Card -->
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-truck"></i>
@@ -334,7 +362,8 @@
                             <li>Product demonstration</li>
                         </ul>
                     </div>
-
+                    
+                    <!-- Customer Support Card -->
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-headset"></i>
@@ -353,7 +382,8 @@
         </div>
     </section>
 
-    <!-- Partners Section -->
+    <!-- PARTNERS SECTION -->
+    <!-- Shows the team behind the business -->
     <section class="partners-section" id="partners">
         <div class="container">
             <div class="section-title">
@@ -361,6 +391,7 @@
                 <p>Meet the dedicated team behind Shree Samarath</p>
             </div>
             <div class="partners-grid">
+                <!-- RAVI Partner Card -->
                 <div class="partner-card">
                     <div class="partner-img">
                         R
@@ -368,6 +399,8 @@
                     <h3>RAVI</h3>
                     <p>Co-founder & Marketing Head</p>
                 </div>
+                
+                <!-- ATISH Partner Card -->
                 <div class="partner-card">
                     <div class="partner-img">
                         A
@@ -375,6 +408,8 @@
                     <h3>ATISH</h3>
                     <p>Co-founder & Technical Expert</p>
                 </div>
+                
+                <!-- RAHUL Partner Card -->
                 <div class="partner-card">
                     <div class="partner-img">
                         R
@@ -386,17 +421,20 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- CONTACT SECTION -->
+    <!-- Contact information and WhatsApp form -->
     <section class="contact-section" id="contact">
         <div class="container">
             <div class="section-title">
                 <h2>Contact Us</h2>
-                <p>Get instant reply on WhatsApp within 5 minutes</p>
+                <p>Get in touch with us for all your electronic needs</p>
             </div>
             <div class="contact-container">
+                <!-- Contact Information Side -->
                 <div class="contact-info">
                     <h3>Visit Our Store</h3>
                     <div class="contact-details">
+                        <!-- Address -->
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="contact-item-content">
@@ -405,6 +443,8 @@
                                 <p>11-ft. TOWER #1</p>
                             </div>
                         </div>
+                        
+                        <!-- Phone Number -->
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
                             <div class="contact-item-content">
@@ -412,6 +452,8 @@
                                 <p>8451863681 (Store & WhatsApp)</p>
                             </div>
                         </div>
+                        
+                        <!-- Business Hours -->
                         <div class="contact-item">
                             <i class="fas fa-clock"></i>
                             <div class="contact-item-content">
@@ -421,23 +463,32 @@
                             </div>
                         </div>
                     </div>
-                    <a href="https://wa.me/918451863681" class="btn btn-whatsapp" target="_blank"><i
-                            class="fab fa-whatsapp"></i> Message on WhatsApp</a>
+                    <!-- Direct WhatsApp Button -->
+                    <a href="https://wa.me/918451863681" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Message on WhatsApp
+                    </a>
                 </div>
+                
+                <!-- Contact Form Side -->
                 <div class="contact-form">
                     <h3>Send us a Message</h3>
                     <p>Fill out the form below and we'll contact you on WhatsApp</p>
+                    
+                    <!-- WhatsApp Form -->
                     <form id="whatsappForm">
+                        <!-- Name Input -->
                         <div class="form-group">
                             <label for="name">Your Name</label>
-                            <input type="text" id="name" class="form-control" required
-                                placeholder="Enter your full name">
+                            <input type="text" id="name" class="form-control" required placeholder="Enter your full name">
                         </div>
+                        
+                        <!-- Phone Input -->
                         <div class="form-group">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" class="form-control" required
-                                placeholder="Enter your 10-digit mobile number">
+                            <input type="tel" id="phone" class="form-control" required placeholder="Enter your 10-digit mobile number">
                         </div>
+                        
+                        <!-- Product Selection -->
                         <div class="form-group">
                             <label for="product">Product Interest</label>
                             <select id="product" class="form-control">
@@ -452,11 +503,14 @@
                                 <option value="Other">Other</option>
                             </select>
                         </div>
+                        
+                        <!-- Message Textarea -->
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" class="form-control"
-                                placeholder="Tell us about your requirement, budget, or any questions..."></textarea>
+                            <textarea id="message" class="form-control" placeholder="Tell us about your requirement, budget, or any questions..."></textarea>
                         </div>
+                        
+                        <!-- Submit Button -->
                         <button type="submit" class="btn btn-whatsapp" style="width: 100%;">
                             <i class="fab fa-whatsapp"></i> Send via WhatsApp
                         </button>
@@ -466,19 +520,19 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER SECTION -->
+    <!-- Contains site links, social media, and copyright -->
     <footer>
         <div class="container">
             <div class="footer-content">
+                <!-- Footer Logo and Description -->
                 <div class="footer-logo">
                     <h2>SHREE SAMARATH</h2>
                     <p>Electronic and Mobile Shop</p>
-                    <p>
-                        Shree Samarath is a trusted electronics and mobile shop in Kalwa, Mumbai
-                        offering mobiles, TVs, ACs, washing machines and accessories at best prices.
-                    </p>
-
+                    <p>Your trusted partner for all electronic and mobile needs with the best prices, quality products and excellent service in town.</p>
                 </div>
+                
+                <!-- Quick Links -->
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
@@ -489,6 +543,8 @@
                         <li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
+                
+                <!-- Social Media Links -->
                 <div class="footer-social">
                     <h3>Connect With Us</h3>
                     <div class="social-icons">
@@ -497,18 +553,20 @@
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="tel:8451863681"><i class="fas fa-phone"></i></a>
                     </div>
+                    <!-- Address Information -->
                     <p style="margin-top: 20px; color: #aaa;">PR APL No. 01 Shop No. 4 Mumbai, Porol, Kalwa - 400605</p>
                     <p style="color: #aaa; margin-top: 10px;"><i class="fas fa-tower"></i> 11-ft. TOWER #1</p>
                 </div>
             </div>
+            
+            <!-- Copyright Information -->
             <div class="footer-bottom">
-                <p>&copy; 2023 Shree Samarath Electronic and Mobile. All rights reserved. | Designed with <i
-                        class="fas fa-heart" style="color: var(--secondary);"></i> for our valued customers</p>
+                <p>&copy; 2026 Shree Samarath Electronic and Mobile. All rights reserved. | Designed with <i class="fas fa-heart" style="color: var(--secondary);"></i> for our valued customers</p>
             </div>
         </div>
     </footer>
 
+    <!-- External JavaScript File -->
     <script src="script.js"></script>
 </body>
-
 </html>
